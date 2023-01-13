@@ -1,10 +1,12 @@
+package bookteam;
+
 public class ProgrammingBook extends Book{
     private String language="";
     private String framework="";
-    ProgrammingBook(){
+    public ProgrammingBook(){
         super();
     }
-    ProgrammingBook(String n,double p,String a,String l,String f){
+    public ProgrammingBook(String n,double p,String a,String l,String f){
         super(n,p,a);
         language=l;
         framework=f;

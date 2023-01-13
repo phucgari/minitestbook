@@ -1,10 +1,12 @@
+package bookteam;
+
 public class FictionBook extends Book {
     String category="";
 
-    FictionBook(){
+    public FictionBook(){
         super();
     }
-    FictionBook(String n,double p,String a,String c){
+    public FictionBook(String n,double p,String a,String c){
         super(n,p,a);
         category=c;
     }

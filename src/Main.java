@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("Java book number "+countProgrammingBookJava(books));
         System.out.println("vien tuong book number "+countFictionVientuong1(books));
-        System.out.println("Fiction lowprice number "+countFictionLowPrice(books);
+        System.out.println("Fiction lowprice number "+countFictionLowPrice(books));
         System.out.println("total price 10 books "+totalPrice(books));
     }
     public static double totalPrice(Book[] books){
